@@ -1,0 +1,28 @@
+* {
+    color: white;
+    background-color: black;
+}
+
+#ghost {
+    border-radius: 50%;
+    border: 3px solid transparent;
+}
+
+#ghost:hover {
+    animation: circle 2s linear infinite; 
+}
+
+@keyframes circle {
+    0% {
+        border-top: 3px solid white;
+    }
+    25% {
+        border-right: 3px solid white;
+    }
+    50% {
+        border-bottom: 3px solid white;
+    }
+    75% {
+        border-left: 3px solid white;
+    }
+}
