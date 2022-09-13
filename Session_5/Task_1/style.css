@@ -1,0 +1,29 @@
+/* Universal Styles */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav */
+nav {
+    background-color: #48752A;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #C3F5A2;
+}
+
+a:hover {
+    font-size: large;
+}
