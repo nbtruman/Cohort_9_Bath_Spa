@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Own Adventure</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Text Adventure</h1>
+        <img src="./Resources/chimney.gif" alt="Smoking Chimney">
+    </header>   
+    <main>
+        <h2>Build Your Character</h2>
+        <form action="page_1.html" method="post">
+            <label for="name">Pick a Name</label>
+            <br>
+            <input type="text" name="name">
+            <br>
+            <label for="height">How tall are you?</label>
+            <br>
+            <input type="range" min="4" max="7" step="0.1">
+            <br>
+            <label for="coffee">How do you take your coffee?</label>
+            <br>
+            <input type="checkbox" name="coffee">Sugar
+            <input type="checkbox" name="coffee">Milk
+            <br>
+            <a href="./page_1.html"><input type="submit" value="Enter The Adventure"></a>
+        </form>
+    </main>
+</body>
+</html>
