@@ -20,5 +20,15 @@ html, body {
     font-size: 5vmax;
 }
 
+#navBar {
+    height: 25px;
+}
+
 #navBar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navBar ul li {
+    list-style: none;
 }
