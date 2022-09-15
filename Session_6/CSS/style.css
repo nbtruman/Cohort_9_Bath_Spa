@@ -8,17 +8,17 @@ html, body {
 }
 
 h2 {
-    font-size: 2vmax;
+    font-size: 2em;
     text-align: center;
     padding: 3vh;
 }
 
-h3, li {
-    font-size: 1vmax;
+h3{
+    font-size: 1.5em;
 }
 
-p, q {
-    font-size: 0.8vmax;
+p, q, li{
+    font-size: 1em;
 }
 
 /* header */
@@ -72,12 +72,12 @@ li:hover {
     flex-wrap: wrap;
 }
 
-.column {
+.box {
     width: 35vmax;
-    padding: 3vw;
+    padding: 1vw;
 }
 
-.column img {
+.box img {
     width: inherit;
 }
 
