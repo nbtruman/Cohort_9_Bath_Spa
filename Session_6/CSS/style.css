@@ -1,12 +1,24 @@
-body {
-    width: 100%;
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    background-color: black;
 }
 /* header */
+
 #hero {
     width: 100%;
     height: 80vh;
     background-image: url(../Resources/banner.jpg);
+    display: flex;
 }
 
 #hero h1 {
+    margin: auto;
+    font-size: 5vmax;
+}
+
+#navBar ul {
 }
