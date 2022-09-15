@@ -8,8 +8,17 @@ html, body {
 }
 
 h2 {
-   text-align: center;
-   padding: 3vh;
+    font-size: 2vmax;
+    text-align: center;
+    padding: 3vh;
+}
+
+h3, li {
+    font-size: 1vmax;
+}
+
+p, q {
+    font-size: 0.8vmax;
 }
 
 /* header */
@@ -65,7 +74,7 @@ li:hover {
 
 .column {
     width: 35vmax;
-    padding: 3vw
+    padding: 3vw;
 }
 
 .column img {
