@@ -6,6 +6,12 @@ html, body {
     color: aliceblue;
     background-color: black;
 }
+
+h2 {
+   text-align: center;
+   padding: 3vh;
+}
+
 /* header */
 
 #hero {
@@ -41,13 +47,15 @@ header {
 
 #navBar ul li {
     list-style: none;
+    margin: 0.5vh;
+    padding: 0.5vh;
+}
+
+li:hover {
+    border: 1px solid white;
 }
 
 /* main */
- h2 {
-    text-align: center;
-    padding: 3vh;
- }
 
 .container {
     display: flex;
@@ -62,4 +70,18 @@ header {
 
 .column img {
     width: inherit;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    padding: 5vw;
+}
+
+q {
+    font-style: italic;
 }
