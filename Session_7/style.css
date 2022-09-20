@@ -8,3 +8,7 @@
 img {
     border-radius: 1vw;
 }
+
+#beets {
+    background-image: url(./images/beets.jpg);
+}
