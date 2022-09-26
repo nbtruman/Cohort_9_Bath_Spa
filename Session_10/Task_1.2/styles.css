@@ -6,7 +6,7 @@ body {
 
 h1 {
     text-align: center;
-    padding: 5vw;
+    padding: 5vh;
 }
 
 .container {
@@ -14,11 +14,11 @@ h1 {
     width: 50%;
     display: flex;
     justify-content: space-around;
-    padding: 5vw;
+    padding: 5vh;
 }
 
 button {
-    padding: 1vw 2vw;
+    padding: 1vh 2vh;
     font-family: 'Courier New', Courier, monospace;
 }
 

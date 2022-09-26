@@ -1,11 +1,13 @@
 const switchOff = document.getElementById("turnOff");
 const switchOn = document.getElementById("turnOn");
-const lightSwtich = document.getElementById("toggle");
+const bulb = document.getElementById("bulb");
+const on = "./pic_bulbon.gif"
+const off = "./pic_bulboff.gif";
 
 switchOn.onclick = function() {
-    document.getElementById("bulb").src = "./pic_bulbon.gif";
+    bulb.src = on;
 }
 
 switchOff.onclick = function() {
-    document.getElementById("bulb").src = "./pic_bulboff.gif";
+    bulb.src = off;
 }
