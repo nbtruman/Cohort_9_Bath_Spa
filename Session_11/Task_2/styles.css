@@ -1,0 +1,28 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5vh;
+}
+
+body {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+button {
+    padding: 2vh;
+    margin: 2vh auto;
+    border: 5px solid gainsboro;
+    border-radius: 10px;
+}
+
+ul {
+    width: 10vw;
+    margin: auto
+}
