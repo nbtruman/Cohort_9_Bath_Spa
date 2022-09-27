@@ -26,7 +26,7 @@ add.onclick = function addItem() {
 
 clear.onclick = function clearList() {
     shoppingList.innerHTML = ""
-    list.forEach(i => {
+    list.forEach(() => {
         list.pop();
         console.log(list)
     })

@@ -20,6 +20,11 @@ button {
     margin: 2vh auto;
     border: 5px solid gainsboro;
     border-radius: 10px;
+    transition: border 500ms;
+}
+
+button:hover {
+    border: 5px solid black;
 }
 
 ul {
