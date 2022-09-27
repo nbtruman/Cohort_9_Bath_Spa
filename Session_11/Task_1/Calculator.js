@@ -2,9 +2,9 @@ const calcButton = document.getElementById("calculate")
 const output = document.getElementById("output")
 
 calcButton.onclick = function () {
-    const inputOne = parseInt(document.getElementById("inputOne").value);
+    const inputOne = parseFloat(document.getElementById("inputOne").value);
     console.log(inputOne)
-    const inputTwo = parseInt(document.getElementById("inputTwo").value);
+    const inputTwo = parseFloat(document.getElementById("inputTwo").value);
     console.log(inputTwo)
     const operator = document.getElementById("operator").value;
     console.log(operator)
