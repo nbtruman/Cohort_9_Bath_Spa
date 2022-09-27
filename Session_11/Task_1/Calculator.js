@@ -8,6 +8,8 @@ calcButton.onclick = function () {
     console.log(inputTwo)
     const operator = document.getElementById("operator").value;
     console.log(operator)
+    const n = document.getElementById("decimals").value;
+    console.log(n)
     const operation = function(a, b) {
         switch(operator) {
             case "+":
@@ -25,5 +27,5 @@ calcButton.onclick = function () {
         }
          
     }
-    output.innerHTML = operation(inputOne, inputTwo)
+    output.innerHTML = operation(inputOne, inputTwo).toFixed(n);
 }

@@ -11,12 +11,13 @@ h1 {
 }
 
 .container {
-    width: 80%;
+    width: 50%;
     margin: auto;
-    padding: 5vh;
+    padding: 1vh;
     display: flex;
     justify-content: space-around;
 }
+
 
 button {
     margin: auto;
@@ -25,9 +26,13 @@ button {
 
 #output {
     border: 5px solid black;
-    border-radius: 50%;
-    padding: 5vw;
+    border-radius: 20px;
     font-size: 50px;
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .block {
