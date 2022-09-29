@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100px;
+    background-image: url(./Resources/background.png);
+    background-size: cover;
+}
+
+h1 {
+    background-image: url(./Resources/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0px;
+    width: 15vw;
+    height: 5vw;
+    margin: 2vw 5vw;
+}
