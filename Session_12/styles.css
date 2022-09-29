@@ -58,6 +58,24 @@ header li {
     align-items: center;
     background-image: linear-gradient(to bottom right, #7B7DD6, #D659D6);
 }
+
+#counter {
+    position: absolute;
+    left: 50px;
+    bottom: 45px;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter p {
+    color: white;
+}
+
 /* main styles */
 
 main {
@@ -81,10 +99,12 @@ main {
     background-image: url(./Resources/img.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 5vw;
+    transition: background-image 1s;
 }
 
 #slider h2 {
