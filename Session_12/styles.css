@@ -44,13 +44,19 @@ header li {
     list-style: none;
     font-size: 25px;
     padding: 0px 3vw;
+    transition: filter .2s;
+}
+
+header li:hover {
+    filter: invert(1);
+    cursor: pointer;
 }
 
 #basket {
     position: absolute;
     right: 0;
-    width: 3vw;
-    height: 3vw;
+    width: 70px;
+    height:70px;
     margin: 2vw 5vw;
     border-radius: 5px;
     display: flex;
@@ -62,7 +68,7 @@ header li {
 #counter {
     position: absolute;
     left: 50px;
-    bottom: 45px;
+    bottom: 50px;
     background-color: red;
     width: 25px;
     height: 25px;
@@ -92,6 +98,12 @@ main {
 
 #sideBar i {
     margin: 3vh;
+    transition: filter .2s;
+}
+
+#sideBar i:hover {
+    filter: invert(1);
+    cursor: pointer;
 }
 
 #slider {
