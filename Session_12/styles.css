@@ -62,7 +62,7 @@ header li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom right, #7B7DD6, #D659D6);
+    background-image: linear-gradient(to bottom right, #7DBAFA, #D659D6);
 }
 
 #counter {
@@ -97,7 +97,7 @@ main {
 }
 
 #sideBar i {
-    margin: 3vh;
+    margin: 50px;
     transition: filter .2s;
 }
 
@@ -121,7 +121,7 @@ main {
 
 #slider h2 {
     padding: 1vw;    
-    background-image: linear-gradient(to bottom right, #7B7DD6, #D659D6);
+    background-image: linear-gradient(to bottom right, #7DBAFA, #D659D6);
     width: fit-content;
     border-radius: 5px;
     color: lightblue;
@@ -163,7 +163,7 @@ main {
 }
 
 #right {    
-    background-image: linear-gradient(to bottom right, #7B7DD6, #D659D6);
+    background-image: linear-gradient(to bottom right, #7DBAFA, #D659D6);
 }
 
 #right i {
