@@ -63,7 +63,7 @@ p {
     margin: 30px;
 }
 /* rating */
-.rating img {
+#rating img {
     display: block;
     background-color: hsl(213, 19%, 18%);
     padding: 15px;
@@ -91,6 +91,8 @@ input[type="radio"]{
     display: none;
 }
 
+
+
 input[type="radio"]:active + label {
     background-color: hsl(25, 97%, 53%);
 }
@@ -110,13 +112,29 @@ input[type="submit"] {
     letter-spacing: 2px;
     color: white;
     background-color: hsl(25, 97%, 53%);
+    border: none;
 }
 
 
 
 /* submission */
-.submission {
+#submission {
     display: none;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+}
+
+#submission h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+#ratingOutput {
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
 }
 
 

@@ -16,12 +16,12 @@
 <body>
   <main>
     <div class="container">      
-      <div class="state rating">
+      <div id="rating" class="state">
         <img src="./images/icon-star.svg" alt="star" id="star">
         <h1>How did we do?</h1>
         <p>Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!</p>
-        <form action="#">
+        <form action="#" id="myForm">
           <div class="radios">
             
             <input name="rating" type="radio" value="1" id="1">
@@ -37,15 +37,15 @@
             <label for="4">4</label>
             
             <input name="rating" type="radio" value="5" id="5">
-            <label for="1">5</label>
+            <label for="5">5</label>
           </div>                    
           <br>
-          <input type="submit">    
+          <input type="submit" id="submit">    
         </form>
       </div>
-      <div class="state submission">
+      <div id="submission" class="state">
         <img src="./images/illustration-thank-you.svg" alt="Thank You">
-        <p>You selected <!-- Add rating here --> out of 5</p>
+        <p id="ratingOutput"></p>
         <h1>Thank you!</h1>
         <p>We appreciate you taking the time to give a rating. If you ever need more support, 
         don’t hesitate to get in touch!</p>
@@ -58,6 +58,6 @@
       Coded by <a href="#">Noah Truman</a>.
     </div>
   </footer>
-
+  <script src="app.js"></script>
 </body>
 </html>
