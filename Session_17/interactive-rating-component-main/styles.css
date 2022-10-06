@@ -87,11 +87,13 @@ p {
     box-sizing: border-box;
 }
 
+input:hover, label:hover {
+    cursor: pointer;
+}
+
 input[type="radio"]{
     display: none;
 }
-
-
 
 input[type="radio"]:active + label {
     background-color: hsl(25, 97%, 53%);

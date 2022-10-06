@@ -7,7 +7,9 @@ form.addEventListener("submit", (e)=> {
     e.preventDefault();
     const output = form.rating.value;
     console.log(output);
-    ratingCard.style.display = "none";
-    ratingOutput.innerHTML = `You selected ${output} out of 5`
-    submission.style.display = "flex";
+    if(Number.isInteger(parseInt(output))) {
+        ratingCard.style.display = "none";
+        ratingOutput.innerHTML = `You selected ${output} out of 5`
+        submission.style.display = "flex";
+    }    
 })
