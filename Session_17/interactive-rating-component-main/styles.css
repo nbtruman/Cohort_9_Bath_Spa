@@ -1,0 +1,129 @@
+/* universal styles 
+## Colors
+
+### Primary
+
+- Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+- Weights: 400, 700 */
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+}
+
+main {    
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    color: hsl(217, 12%, 63%);
+    height: 5vh;
+}
+
+.container {
+    width: 375px;
+    background: radial-gradient( 98.96% 98.96% at 50% 0%, hsl(213, 19%, 18%) 0%, #181e27 100% );
+    border-radius: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+}
+/* form */
+.state {
+    margin: 30px;
+}
+/* rating */
+.rating img {
+    display: block;
+    background-color: hsl(213, 19%, 18%);
+    padding: 15px;
+    border-radius: 50%;
+}
+.radios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radios label {
+    height: 20px;
+    width: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+input[type="radio"]:active + label {
+    background-color: hsl(25, 97%, 53%);
+}
+
+input[type="radio"]:checked + label {
+    background-color: hsl(217, 12%, 63%);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+
+/* submission */
+.submission {
+    display: none;
+}
+
+
+.attribution { 
+        font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
