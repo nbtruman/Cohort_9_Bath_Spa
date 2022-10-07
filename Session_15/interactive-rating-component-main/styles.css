@@ -58,10 +58,12 @@ p {
     color: hsl(217, 12%, 63%);
     line-height: 25px;
 }
+
 /* form */
 .state {
     margin: 30px;
 }
+
 /* rating */
 #rating img {
     display: block;
@@ -116,8 +118,6 @@ input[type="submit"] {
     background-color: hsl(25, 97%, 53%);
     border: none;
 }
-
-
 
 /* submission */
 #submission {
