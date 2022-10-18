@@ -56,7 +56,7 @@ div.food.img {
 div.food.text {
     grid-row: 4 / span 2;
     grid-column: 2 / span 4;
-    font-size: 3vh;
+    font-size: 2.5vh;
     background-color: plum;
 }
 
@@ -66,4 +66,12 @@ div.location.img {
     background-image: url("https://i.picsum.photos/id/993/1000/300.jpg?hmac=Q06fpx_HmXI23EzgMS8AhMEyQY8LRhaBbDz4Glk1beY");
     background-size: cover;
     background-position: center;
+}
+div.location.text {
+    background-color: rgb(172, 172, 94);
+}
+
+div:hover {
+    transform: scale(1.1);
+    transition: all 1s;
 }
