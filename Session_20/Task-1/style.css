@@ -1,77 +1,90 @@
-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0.5vw;
-    width: 100%;
-    height: 100vh;
+body {    
     padding: 0;
     margin: 0;
+    background: #FEBB1D;
+    box-sizing: border-box;
 }
 
-p {    
-    font-family: 'Courier New', Courier, monospace;    
-    padding: 1vw;
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
-div.season.img{
-    grid-row: 1 / span 3;
-    grid-column: 1 / span 1;
-    background-image: url("https://i.picsum.photos/id/167/200/400.jpg?hmac=RpEs_OZPVHlymVK0fA7F3_oxOh5Fno0ArF5O8idtEdM");
+/* HEADER */
+header {
+    width: 100%;
+}
+
+header img {
+    height: 10vh;
+    display: block;
+    margin: auto;
+}
+
+/* MAIN */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1vw;
+    width: 90%;
+    font-size: 1.2vw;
+    margin: auto;
+}
+
+main div { 
+    grid-column: auto;
+    padding-top: 100%;
     background-size: cover;
-    background-position: bottom;
+    position: relative;
 }
 
-div.season.text {
-    grid-row: 1 / span 3;
-    grid-column: 2 / span 1;
+p {
+    padding: 0px;
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    background-color: #2b292673;
     color: blanchedalmond;
-    background-color: black;
-    font-size: 2.7vh;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
 }
 
-div.activity.img {
-    grid-row: 1 / span 1;
-    grid-column: 3 / span 3;
-    background-image: url("https://i.picsum.photos/id/171/2000/500.jpg?hmac=LJTCt1WLshg6BZ2NfbDWavD_TYCZHerx85pH5BaxmFY");
-    background-size: cover;
-    background-position: center;
+#one {
+    background-image: url("./images/DALL·E\ 2022-10-25\ 16.07.37\ -\ reconcile\ elite\ tiger.png");
 }
 
-div.activity.text {
-    grid-row: 2 / 3;
-    grid-column: 3 / span 3;
-    font-size: 1.5vh;
-    background-color: bisque;
+#two {
+    background-image: url("./images/DALL·E\ 2022-10-25\ 16.29.36\ -\ neighborhood\ theory\ pay.png");
 }
 
-div.food.img {
-    grid-row: 4 / span 2;
-    grid-column: 1 / 2;
-    background-image: url("https://i.picsum.photos/id/674/200/300.jpg?hmac=kS3VQkm7AuZdYJGUABZGmnNj_3KtZ6Twgb5Qb9ITssY");
-    background-size: cover;
-    background-position: center;
+#three {
+    background-image: url("./images/DALL·E\ 2022-10-25\ 16.35.44\ -\ enfix\ reverse\ handicap.png");
 }
 
-div.food.text {
-    grid-row: 4 / span 2;
-    grid-column: 2 / span 4;
-    font-size: 2.5vh;
-    background-color: plum;
+#four {
+    background-image: url("./images/DALL·E\ 2022-10-25\ 16.50.30\ -\ king\ hate\ junior.png");
 }
 
-div.location.img {
-    grid-row: 3 / 4;
-    grid-column: 3 / span 2;
-    background-image: url("https://i.picsum.photos/id/993/1000/300.jpg?hmac=Q06fpx_HmXI23EzgMS8AhMEyQY8LRhaBbDz4Glk1beY");
-    background-size: cover;
-    background-position: center;
-}
-div.location.text {
-    background-color: rgb(172, 172, 94);
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1530px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 1.8vw;
 }
 
-div:hover {
-    transform: scale(1.1);
-    transition: all 1s;
+@media only screen and (max-width: 1150px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        font-size: 2.5vw;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;        
+        font-size: 5vw;
 }
