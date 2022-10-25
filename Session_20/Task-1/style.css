@@ -4,7 +4,7 @@ body {
     background: #FEBB1D;
     box-sizing: border-box;
 }
-
+/* removes default CSS */
 p {
     margin-block-start: 0;
     margin-block-end: 0;
@@ -18,7 +18,7 @@ header {
 }
 
 header img {
-    height: 10vh;
+    height: 15vh;
     display: block;
     margin: auto;
 }
@@ -42,7 +42,7 @@ main div {
 }
 
 p {
-    padding: 0px;
+    padding: 10px;
     position: absolute;
     height: 50%;
     bottom: 0;
