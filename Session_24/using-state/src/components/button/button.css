@@ -1,0 +1,12 @@
+.button {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    mix-blend-mode: difference;
+    cursor: pointer;
+    transition: all 0.5s;
+}

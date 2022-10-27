@@ -1,5 +1,7 @@
+import "./button.css";
+
 function Button(props) {
-    return <button onClick={props.handleChange}>Click Me!</button>;
+    return <button className="button" onClick={props.handleChange} style={{backgroundColor: props.bgColor}}>Click Me!</button>;
 }
 
 export default Button;
